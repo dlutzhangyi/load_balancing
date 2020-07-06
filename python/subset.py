@@ -31,7 +31,8 @@ def printbar(subset_dict):
 
 def main():
   backends = list(range(6))
-  client_id = list(range(360000))
+  # client_id = list(range(360000))
+  client_id = list(range(6))
   subset_size = 3
   subset_list = []
 
@@ -49,7 +50,7 @@ def main():
         subset_dict[v] = 1
 
   print(subset_dict)
-  printbar(subset_dict)
+  # printbar(subset_dict)
 
 if __name__ == "__main__":
     main()
